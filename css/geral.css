@@ -1,0 +1,57 @@
+body{
+  /*background: url("../imgs/fundo.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  margin: 0;
+  background-color: #050505;
+}
+
+.div-form {
+  width: 80%;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fbfbfb;
+}
+
+@media (min-width: 476px) {
+  .div-form {
+    max-width: 75%;
+  }
+}
+
+@media (min-width: 768px) {
+  .div-form {
+    max-width: 500px;
+  }
+}
+
+span.respostaUsrTrue{
+  background-color: #21bc21;
+  color: #fff;
+  padding: 5px;
+}
+
+span.respostaUsrFalse{
+  background-color: #f00;
+  color: #fff;
+  padding: 5px;
+}
+
+span.respostaEmailTrue{
+  background-color: #21bc21;
+  color: #fff;
+  padding: 5px;
+}
+
+span.respostaEmailFalse{
+  background-color: #f00;
+  color: #fff;
+  padding: 5px;
+}
+
+.sublinhado{
+  text-decoration: underline;
+}
